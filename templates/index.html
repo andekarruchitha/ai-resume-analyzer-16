@@ -17,6 +17,18 @@
 
     </form>
 
+    <hr>
+
+    <h2>Resume Score: {{ score }}/100</h2>
+
+    <h2>Suggestions:</h2>
+
+    <ul>
+        {% for item in suggestions %}
+            <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+
     <h2>Resume Text:</h2>
 
     <p>{{ text }}</p>
