@@ -2,10 +2,50 @@
 <html>
 
 <head>
+
     <title>AI Resume Analyzer</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        .container{
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 70%;
+            margin: auto;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        button{
+            background: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .score{
+            color: green;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+    </style>
+
 </head>
 
 <body>
+
+<div class="container">
 
     <h1>AI Resume Analyzer</h1>
 
@@ -19,7 +59,9 @@
 
     <hr>
 
-    <h2>Resume Score: {{ score }}/100</h2>
+    <h2 class="score">
+        Resume Score: {{ score }}/100
+    </h2>
 
     <h2>Suggestions:</h2>
 
@@ -32,6 +74,8 @@
     <h2>Resume Text:</h2>
 
     <p>{{ text }}</p>
+
+</div>
 
 </body>
 
