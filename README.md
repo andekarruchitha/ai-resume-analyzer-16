@@ -40,4 +40,6 @@ The Resume AI Analyzer uses NLP techniques to:
 
 ---
 
-## 📂 Project Architecture
+#### Live Demo
+https://ai-resume-analyzer-16.onrender.com/
+
