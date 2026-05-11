@@ -43,3 +43,7 @@ The Resume AI Analyzer uses NLP techniques to:
 #### Live Demo
 https://ai-resume-analyzer-16.onrender.com/
 
+## 📌 Project Purpose
+
+This project helps job seekers optimize resumes for Applicant Tracking Systems (ATS) and improve resume quality for better interview opportunities.
+
